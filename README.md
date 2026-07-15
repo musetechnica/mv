@@ -1,2 +1,2 @@
 # mv
-Official Website for Michael Vince
+Official Website for Michael Vince - Guitarist, Composer, Arranger
