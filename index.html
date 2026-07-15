@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Vince | Contemporary Jazz & Soul Guitarist</title>
+    <style>
+        :root {
+            --bg-color: #231b1a;
+            --card-bg: #2d2321;
+            --accent-color: #d19e83;
+            --text-main: #f5f2f0;
+            --text-muted: #cbb2ab;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 460px;
+            width: 90%;
+            margin: 2rem auto;
+            background-color: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 16px;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7);
+            text-align: center;
+            border: 1px solid #3d302e;
+        }
+
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            object-position: left center; 
+            border: 2px solid var(--accent-color);
+            margin-bottom: 1.5rem;
+            display: inline-block;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            margin: 0 0 0.3rem 0;
+            letter-spacing: -0.5px;
+            color: var(--text-main);
+        }
+
+        .subtitle {
+            font-size: 0.95rem;
+            color: var(--accent-color);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
+        }
+
+        .bio {
+            color: var(--text-muted);
+            line-height: 1.6;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+            text-align: left;
+        }
+
+        .section-title {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            color: var(--accent-color);
+            margin: 1.5rem 0 0.8rem 0;
+            text-align: left;
+            font-weight: 600;
+            border-bottom: 1px solid #3d302e;
+            padding-bottom: 0.3rem;
+        }
+
+        .audio-list {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .audio-link {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #382c29;
+            color: var(--text-main);
+            text-decoration: none;
+            padding: 0.75rem 1.2rem;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            text-align: left;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+
+        .audio-link:hover {
+            background-color: #463733;
+            transform: translateX(2px);
+        }
+
+        .audio-link span.play-icon {
+            color: var(--accent-color);
+            font-size: 0.8rem;
+        }
+
+        .contact-btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #231b1a;
+            text-decoration: none;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: transform 0.2s, background-color 0.2s;
+            margin-bottom: 1.5rem;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        .contact-btn:hover {
+            transform: translateY(-2px);
+            background-color: #dfb39d;
+        }
+
+        .info-list {
+            list-style: none;
+            padding: 0;
+            margin: 1.5rem 0 0 0;
+            border-top: 1px solid #3d302e;
+            padding-top: 1.5rem;
+            text-align: left;
+        }
+
+        .info-list li {
+            margin-bottom: 0.8rem;
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .info-list strong {
+            color: var(--text-main);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="images/MV01-notext.jpg" alt="Michael Vince" class="profile-img">
+
+        <h1>Michael Vince</h1>
+        <div class="subtitle">Contemporary Jazz & Soul Guitar</div>
+
+        <p class="bio">
+            Michael Vince is a contemporary jazz guitarist, songwriter, and recording artist. From his early days with the Texas-based <strong>12:30pm Band</strong> to his solo EP co-produced by two-time Grammy-winner <strong>Paul Brown</strong>, Michael brings a premium, radio-syndicated sound to live venues. Performing a polished mix of groove-driven original instrumentals and curated classics with professional backing tracks, he delivers a full, elegant band aesthetic with a minimal physical footprint.
+        </p>
+
+        <!-- Section Title Updated for Universal Streaming -->
+        <div class="section-title">Listen Now</div>
+        <div class="audio-list">
+            <a href="https://music.youtube.com/playlist?list=OLAK5uy_nWXoJY0huxoVhubpB8nwqCiYvxvmhZXYw" target="_blank" class="audio-link">
+                <span>Shelby St. Bridge (YouTube Stream)</span>
+                <span class="play-icon">▶</span>
+            </a>
+            <!--<a href="https://www.youtube.com/watch?v=zf_CFs3A8s4" target="_blank" class="audio-link">
+                <span>Slow & Easy</span>
+                <span class="play-icon">▶</span>
+            </a> -->
+            <a href="https://music.youtube.com/playlist?list=OLAK5uy_k9YzI37RBp6rkO7s9-vCWjVSp0IM7-PNw" target="_blank" class="audio-link">
+                <span>Michael Vince EP (YouTube Stream)</span>
+                <span class="play-icon">▶</span>
+            </a>
+        </div>
+
+        <!-- Direct Booking Email -->
+        <a href="mailto:your.email@example.com?subject=Booking Inquiry - Sumner County Venue" class="contact-btn">Email for Booking Availability</a>
+
+        <ul class="info-list">
+            <li><strong>Location:</strong> Hendersonville, TN (Serving Sumner & Wilson Counties)</li>
+            <li><strong>Format:</strong> Solo Instrumental Guitar (Electric & Nylon-String)</li>
+            <li><strong>Repertoire:</strong> Original contemporary jazz, fusion, and urban-soul covers</li>
+            <li><strong>Production:</strong> Self-contained sound system; perfect for patios, lounges, and taprooms</li>
+            <li><strong>Direct Contact:</strong> booking@michaelvince.com</li>
+        </ul>
+    </div>
+
+</body>
+</html>
